@@ -66,9 +66,9 @@
     {
       "id": "pointer:pointer",
       "typeName": "pointer",
-      "x": 775.6629768739724,
-      "y": 81.74251356842103,
-      "lastActivityTimestamp": 1694580889840,
+      "x": 4242.1841375082695,
+      "y": 1251.1759421958777,
+      "lastActivityTimestamp": 1695507583620,
       "meta": {}
     },
     {
@@ -79,9 +79,9 @@
       "typeName": "page"
     },
     {
-      "x": -170.55340322055827,
-      "y": 586.6243154704327,
-      "z": 0.26882613138135814,
+      "x": -886.7815106221045,
+      "y": 292.0175731232231,
+      "z": 0.2973322016541796,
       "meta": {},
       "id": "camera:page:62-kboTj2p_EP0vQW1xaQ",
       "typeName": "camera"
@@ -103,7 +103,8 @@
       "followingUserId": null,
       "opacityForNextShape": 1,
       "stylesForNextShape": {
-        "tldraw:size": "l"
+        "tldraw:size": "l",
+        "tldraw:dash": "dotted"
       },
       "brush": null,
       "scribble": null,
@@ -2080,8 +2081,8 @@
       "typeName": "shape"
     },
     {
-      "x": 3358.3188061555293,
-      "y": 803.5203499275979,
+      "x": 3380.4247483487047,
+      "y": 781.8374879677847,
       "rotation": 0,
       "isLocked": false,
       "opacity": 1,
@@ -2094,8 +2095,8 @@
         "color": "black",
         "labelColor": "black",
         "fill": "none",
-        "dash": "draw",
-        "size": "m",
+        "dash": "dotted",
+        "size": "l",
         "font": "draw",
         "text": "Price",
         "align": "middle",
@@ -4249,6 +4250,35 @@
         }
       },
       "id": "shape:VHMXhBvuUbZqgwU7Ocpv0",
+      "typeName": "shape"
+    },
+    {
+      "x": 2951.7533499506644,
+      "y": 1394.4246582433134,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:KFsBLQtVjx55prpb0IukN",
+      "type": "geo",
+      "props": {
+        "w": 179.03706794325737,
+        "h": 60.42223258686086,
+        "geo": "ellipse",
+        "color": "black",
+        "labelColor": "black",
+        "fill": "none",
+        "dash": "draw",
+        "size": "m",
+        "font": "draw",
+        "text": "",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "growY": 0,
+        "url": ""
+      },
+      "parentId": "page:62-kboTj2p_EP0vQW1xaQ",
+      "index": "b1J",
       "typeName": "shape"
     }
   ]
