@@ -1,0 +1,47 @@
+Driver:
+
+Driver Id -primary key
+DriverRating
+Name
+PhoneNo
+UserId -forign key
+Vehicle Info
+
+
+RIDE:
+
+Driver Id -forign key
+Price
+Ride End Time
+Ride ID -primary key
+Ride Start Time
+Ride Status
+User Id -forign key
+
+Location:
+
+DropOff Location
+Location ID -primary key
+Pickup Location
+Rider ID -forign key
+User ID -forign key
+Address -Multivalued Attribute
+
+Payment:
+
+Driver Id -forign key
+Payment ID -primary key
+Payment Method
+Payment Status
+Price - Derived Attribute
+Rider Id -forign key
+
+
+User:
+
+Email
+User Id -primary key
+Name
+Password
+Phone Number
+Role
