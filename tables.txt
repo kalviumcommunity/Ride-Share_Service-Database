@@ -23,7 +23,7 @@ Location:
 DropOff Location
 Location ID -primary key
 Pickup Location
-Rider ID -forign key
+Ride ID -forign key
 User ID -forign key
 Address -Multivalued Attribute
 
