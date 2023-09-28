@@ -66,9 +66,9 @@
     {
       "id": "pointer:pointer",
       "typeName": "pointer",
-      "x": 863.6024018237077,
-      "y": 145.4718557255926,
-      "lastActivityTimestamp": 1695616573909,
+      "x": 2382.5075997096583,
+      "y": 1001.7236800006563,
+      "lastActivityTimestamp": 1695853034694,
       "meta": {}
     },
     {
@@ -79,9 +79,9 @@
       "typeName": "page"
     },
     {
-      "x": -704.7589824021891,
-      "y": 653.5082710902045,
-      "z": 0.1890838253412901,
+      "x": -1226.7294183633603,
+      "y": -515.7295196837626,
+      "z": 0.4760162973897131,
       "meta": {},
       "id": "camera:page:62-kboTj2p_EP0vQW1xaQ",
       "typeName": "camera"
@@ -104,7 +104,8 @@
       "opacityForNextShape": 1,
       "stylesForNextShape": {
         "tldraw:size": "l",
-        "tldraw:dash": "dotted"
+        "tldraw:dash": "dotted",
+        "tldraw:fill": "pattern"
       },
       "brush": null,
       "scribble": null,
@@ -120,8 +121,8 @@
       "screenBounds": {
         "x": 0,
         "y": 0,
-        "w": 1029.1666259765625,
-        "h": 608.3333129882812
+        "w": 1295.833251953125,
+        "h": 523.3333129882812
       },
       "zoomBrush": null,
       "isGridMode": false,
@@ -1761,7 +1762,7 @@
         "geo": "ellipse",
         "color": "black",
         "labelColor": "black",
-        "fill": "none",
+        "fill": "pattern",
         "dash": "draw",
         "size": "m",
         "font": "draw",
