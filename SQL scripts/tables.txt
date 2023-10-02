@@ -11,29 +11,22 @@ Vehicle Info
 RIDE:
 
 Driver Id -forign key
-Price
+Price -derived attribute
 Ride End Time
 Ride ID -primary key
 Ride Start Time
 Ride Status
 User Id -forign key
+Pickup location
+Dropoff location
 
-Location:
-
-DropOff Location
-Location ID -primary key
-Pickup Location
-Ride ID -forign key
-User ID -forign key
-Address -Multivalued Attribute
 
 Payment:
 
-Driver Id -forign key
 Payment ID -primary key
 Payment Method
 Payment Status
-Price - Derived Attribute
+Price - Forign key
 Rider Id -forign key
 
 
