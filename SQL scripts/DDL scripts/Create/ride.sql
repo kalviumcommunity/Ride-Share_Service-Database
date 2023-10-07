@@ -1,3 +1,4 @@
+-- Create the Ride table
 CREATE TABLE Ride (
     RideID SERIAL PRIMARY KEY,
     DriverId INT,
@@ -7,6 +8,6 @@ CREATE TABLE Ride (
     UserId INT,
     PickupLocation VARCHAR(255) NOT NULL,
     DropoffLocation VARCHAR(255) NOT NULL,
-    FOREIGN KEY (DriverId) REFERENCES Driver(DriverId),
-    FOREIGN KEY (UserId) REFERENCES "User"(UserId)
+    FOREIGN KEY (DriverId) REFERENCES Driver (DriverId),
+    FOREIGN KEY (UserId) REFERENCES "User" (UserId)
 );
