@@ -28,7 +28,7 @@ CREATE TABLE Location (
     Address VARCHAR(255),
      UserId INT,
     FOREIGN KEY (UserId) REFERENCES User(UserId)
-    FOREIGN KEY (RideId) REFERENCES Ride(RideId) -- Corrected foreign key definition
+    FOREIGN KEY (RideId) REFERENCES Ride(RideId) 
 );
 
 CREATE TABLE Payment (
