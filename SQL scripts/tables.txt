@@ -1,40 +1,36 @@
 Driver:
 
-Driver Id -primary key
+DriverId (Primary Key)
 DriverRating
 Name
 PhoneNo
-UserId -forign key
-Vehicle Info
-
+UserId (Foreign Key)
+VehicleInfo
 
 RIDE:
 
-Driver Id -forign key
-Price -derived attribute
-Ride End Time
-Ride ID -primary key
-Ride Start Time
-Ride Status
-User Id -forign key
-Pickup location
-Dropoff location
-
+RideID (Primary Key)
+DriverId (Foreign Key)
+RideStartTime
+RideEndTime
+RideStatus
+UserId (Foreign Key)
+PickupLocation
+DropoffLocation
 
 Payment:
 
-Payment ID -primary key
-Payment Method
-Payment Status
-Price - Forign key
-Rider Id -forign key
-
+PaymentID (Primary Key)
+PaymentMethod
+PaymentStatus
+Price
+RiderId (Foreign Key)
 
 User:
 
+UserId (Primary Key)
 Email
-User Id -primary key
 Name
 Password
-Phone Number
+PhoneNumber
 Role
