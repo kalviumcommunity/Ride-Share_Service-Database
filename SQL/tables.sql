@@ -1,4 +1,3 @@
--- Create the Ride table
 CREATE TABLE "User" (
     UserId SERIAL PRIMARY KEY,
     Email VARCHAR(255) NOT NULL,
@@ -7,7 +6,6 @@ CREATE TABLE "User" (
     PhoneNumber VARCHAR(20) NOT NULL,
     Role VARCHAR(50) NOT NULL
 );
--- Create the Driver table
 CREATE TABLE Driver (
     DriverId SERIAL PRIMARY KEY,
     DriverRating DECIMAL(3, 2),
@@ -18,7 +16,6 @@ CREATE TABLE Driver (
     FOREIGN KEY (UserId) REFERENCES "User" (UserId)
 );
 
--- Create the Ride table
 CREATE TABLE Ride (
     RideID SERIAL PRIMARY KEY,
     DriverId INT,
@@ -32,7 +29,6 @@ CREATE TABLE Ride (
     FOREIGN KEY (UserId) REFERENCES "User" (UserId)
 );
 
--- Create the Payment table
 CREATE TABLE Payment (
     PaymentID SERIAL PRIMARY KEY,
     PaymentMethod VARCHAR(50) NOT NULL,
@@ -41,18 +37,3 @@ CREATE TABLE Payment (
     RiderId INT,
     FOREIGN KEY (RiderId) REFERENCES "User" (UserId)
 );
-
--- Table to delete
-CREATE TABLE "delete-table" (
-    id SERIAL PRIMARY KEY,
-    description VARCHAR(255)
-);
-
-
-DROP TABLE "delete-table";
-
-
-
-
-ALTER TABLE Driver
-RENAME COLUMN VehicleDetails TO VehicleInfo;
