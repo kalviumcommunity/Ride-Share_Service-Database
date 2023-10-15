@@ -34,3 +34,13 @@ Name
 Password
 PhoneNumber
 Role
+
+
+user -> request ride
+
+ride -> get payment 
+
+Driver -> accepts -> ride
+
+Driver -> accepts -> ride
+
