@@ -1,0 +1,2 @@
+GRANT SELECT ON Payment TO Rider;
+GRANT SELECT, INSERT, UPDATE, DELETE ON Payment TO Administrator;
