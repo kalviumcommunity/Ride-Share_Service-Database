@@ -1,0 +1,2 @@
+GRANT SELECT, UPDATE ON Driver TO Driver;
+GRANT SELECT, INSERT, UPDATE, DELETE ON Driver TO Administrator;
