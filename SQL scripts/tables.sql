@@ -46,3 +46,21 @@ CREATE TABLE Payment (
     RiderId INT,
     FOREIGN KEY (RiderId) REFERENCES "User" (UserId)
 );
+
+
+-- Table to delete
+CREATE TABLE "delete-table" (
+    id SERIAL PRIMARY KEY,
+    description VARCHAR(255)
+);
+
+
+
+DROP TABLE "delete-table";
+
+
+
+
+ALTER TABLE Driver
+RENAME COLUMN VehicleDetails TO VehicleInfo;
+
