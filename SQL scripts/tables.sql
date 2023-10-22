@@ -42,8 +42,6 @@ CREATE TABLE Payment (
     FOREIGN KEY (RiderId) REFERENCES "User" (UserId)
 );
 
-
-
 -- Table to delete
 CREATE TABLE "delete-table" (
     id SERIAL PRIMARY KEY,
