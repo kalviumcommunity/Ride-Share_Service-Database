@@ -1,0 +1,24 @@
+We start with the "Ride" table (aliased as R).
+We join the "User" table (aliased as U) to get user details, using the UserId from the "Ride" table to link the two.
+We join the "Driver" table (aliased as D) to get driver details, using the DriverId from the "Ride" table to link to the driver.
+We use a LEFT JOIN to connect the "Payment" table (aliased as P) based on the RiderId, allowing us to retrieve payment information if it exists for a ride.
+We select the relevant columns, including the ride ID, user name and email, driver name, payment status, and amount.
+This query will provide details of rides along with associated user information, driver information, and payment information if available. If there is no payment information for a ride, it will still appear in the result with NULL values in the payment-related columns.
+
+
+
+
+
+In the SQL query I provided, "R," "U," and "D" are table aliases used to represent the tables in the query. Table aliases are used to make SQL queries more readable and concise, especially when dealing with multiple tables in complex queries. Here's what they represent:
+
+R is an alias for the "Ride" table.
+U is an alias for the "User" table.
+D is an alias for the "Driver" table.
+Using table aliases, you can refer to columns in these tables more concisely in the query. For example, instead of writing Ride.RideID, you can simply write R.RideID when using the "Ride" table alias.
+
+The query then uses these aliases to join the tables and select specific columns from each table to retrieve the desired information. It's a common practice in SQL to use table aliases to simplify and clarify the structure of complex queries.
+
+
+
+
+
