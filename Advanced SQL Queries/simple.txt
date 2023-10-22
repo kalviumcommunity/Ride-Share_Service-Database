@@ -1,0 +1,8 @@
+This query will join the "Ride," "User," "Driver," and "Payment" tables to retrieve the user name, driver name, and payment amount for each ride where there is a matching record in the "Payment" table. If a ride does not have a corresponding payment record, it won't be included in the result.
+
+
+
+
+when will i get null ?
+ChatGPT
+In the SQL query provided to retrieve ride details, you will get NULL values in the result when Data Missing
