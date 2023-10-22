@@ -5,4 +5,4 @@ SELECT * FROM "User";
 -- list user with particular email
 SELECT * 
 FROM "User"
-WHERE Email = 'user1@example.com';
+WHERE Email = 'johndoe@example.com';
