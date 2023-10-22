@@ -6,7 +6,7 @@ VALUES
     ('user4@example.com', 'User 4', 'password4', '6666666666', 'Customer'),
     ('user5@example.com', 'User 5', 'password5', '7777777777', 'Customer');
 
-INSERT INTO Driver (DriverRating, Name, PhoneNo, UserId, VehicleDetails)
+INSERT INTO Driver (DriverRating, Name, PhoneNo, UserId, VehicleInfo)
 VALUES
     (4.5, 'Driver 1', '1111111111', 3, 'Car'),
     (4.0, 'Driver 2', '2222222222', 3, 'Truck'),
