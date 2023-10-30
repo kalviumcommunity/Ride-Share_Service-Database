@@ -9,7 +9,7 @@ VALUES (999, '2023-10-22 10:00:00', '2023-10-22 11:00:00', 'Pending', 1, 'Locati
 
 -- wait for payment to be processed
 
--- if sussessful, commit the transaction    
+-- if successful, commit the transaction    
 COMMIT;
 
 -- if not, rollback to the savepoint
