@@ -12,7 +12,7 @@ CREATE TABLE Driver (
     Name VARCHAR(255) NOT NULL,
     PhoneNo VARCHAR(20) NOT NULL,
     UserId INT,
-    VehicleDetails VARCHAR(255) NOT NULL,
+    VehicleInfo VARCHAR(255) NOT NULL,
     FOREIGN KEY (UserId) REFERENCES "User" (UserId)
 );
 
