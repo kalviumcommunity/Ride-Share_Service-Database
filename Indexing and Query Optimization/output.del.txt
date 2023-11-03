@@ -1,0 +1,10 @@
+Output:-
+
+1. Querying before indexing
+https://user-images.githubusercontent.com/96479581/277154558-b8ec3030-606b-44ad-8709-da55a8c23c8c.png
+
+2. indexing
+https://user-images.githubusercontent.com/96479581/277154598-0c3ee5b3-30fc-4711-93b8-fc347b3f7698.png
+
+3. Fast Querying after indexing
+https://user-images.githubusercontent.com/96479581/277154622-f17eb17b-947d-4ec9-8fbd-b3971e3ad386.png
